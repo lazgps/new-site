@@ -1,11 +1,22 @@
 <script>
 	export let name;
+	import Headr from './components/Headr.svelte';
+	import Nav from './components/Nav.svelte';
+	import Foot from './components/Foot.svelte';
+	import Router from 'svelte-spa-router';
+	import routes from './routes';
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<div class="bg-default h-full min-h-screen md:mx-20">
+	<div class="bg-white sticky top-0 h-18 w-full md:mt-2">
+		<Headr />
+		<Nav />
+	</div>	
+	<main>
+		<Router {routes} />
+	</main>
+	<Foot />
+</div>
 
 <style global>
 	@import 'tailwindcss/base';
