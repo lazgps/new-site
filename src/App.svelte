@@ -7,7 +7,7 @@
 	import routes from './routes';
 </script>
 
-<div class="container bg-default h-full min-h-screen mt-0 md:mx-20">
+<div class="container bg-default h-screen min-h-screen mt-0 md:mx-20">
 	<div class="bg-white sticky top-0 h-18 w-full my-6 py-6 z-50">
 		<Headr />
 		<Nav />

@@ -1,27 +1,25 @@
-<script>
 
-</script>
-
-<style>
-    .logos{
-        width: 80px;
-        height:80px;
-        margin: 0 2rem;
-    }
-</style>
-
-<footer class="min-h-full bg-red-500 flex items-center justify-center flex-col">
-    <section>
-        <div>
-            
+<footer class="bg-red-500">
+    <div class="container flex flex-col items-center">
+        <div class="flex flex-row items-center justify-between mx-8 my-4 py-4 px-8">
+            <div class="mr-6 pr-6">
+                <img class="w-24 h-24" src="assets/logos/equal-house-opp.png" alt="Equal Housing logo">
+            </div>
+            <div class="mr-6 pr-6">
+                <img class="w-24 h-24" src="assets/logos/florida-realtors.png" alt="Florida Realtors logo">
+            </div>
+            <div class="mr-6 pr-6">
+                <img class="w-24 h-24" src="assets/logos/narpm.png" alt="N.A.R.P.M. logo">
+            </div>
+            <div class="mr-6 pr-6">
+                <img class="w-24 h-24" src="assets/logos/ORRA.png" alt="O.R.R.A logo">
+            </div>
+            <div class="mr-6 pr-6">
+                <img class="w-24 h-24" src="assets/logos/realtor_logo.png" alt="Realtors logo">
+            </div>
+            <div>
+                <img class="w-24 h-24" src="assets/logos/reos.png" alt="REOS logo">
+            </div>
         </div>
-        <div class="flex flex-row items-center justify-around md:m-4">
-            <img class="logos" src="assets/logos/equal-house-opp.png" alt="Equal Housing logo">
-            <img class="logos" src="assets/logos/florida-realtors.png" alt="Florida Realtors logo">
-            <img class="logos" src="assets/logos/narpm.png" alt="N.A.R.P.M. logo">
-            <img class="logos" src="assets/logos/ORRA.png" alt="O.R.R.A logo">
-            <img class="logos" src="assets/logos/realtor_logo.png" alt="Realtors logo">
-            <img class="logos" src="assets/logos/reos.png" alt="REOS logo">
-        </div>
-    </section>
+    </div>
 </footer>
