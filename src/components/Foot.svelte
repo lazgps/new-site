@@ -10,7 +10,7 @@
     }
 </style>
 
-<footer class="min-h-full bg-red-500 z-40 flex items-center justify-center flex-col">
+<footer class="min-h-full bg-red-500 flex items-center justify-center flex-col">
     <section>
         <div>
             
