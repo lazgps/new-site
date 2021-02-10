@@ -12,11 +12,14 @@ collections:
     label: "Posts"
     folder: "posts"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
-    sumary: "{{date}}-{{title}}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}:{{minute}}_{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image" }
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown"}
+
+editor:
+  preview: true;
+  sumary: "{{commit_date}}-{{title}}}"
