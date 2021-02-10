@@ -7,7 +7,7 @@
 </style>
 
 <header>
-    <div class="flex flex-row items-center justify-between">
+    <div class="flex flex-row items-center justify-between px-5 md:px-0">
         <a href="/" use:link use:active>
             <img class="-ml-3" src="assets/logos/logo.png" alt="Our Logo">
         </a>
