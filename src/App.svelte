@@ -1,5 +1,4 @@
 <script>
-	export let name;
 	import Headr from './components/Headr.svelte';
 	import Nav from './components/Nav.svelte';
 	import Foot from './components/Foot.svelte';

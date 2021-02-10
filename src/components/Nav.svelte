@@ -6,8 +6,8 @@
 <style>
 </style>
 
-<nav class="flex flex-row justify-between item-center md:mt-2 text-gray-500">
-    <ul class="inline-flex flex-row">
+<nav class="flex flex-col md:flex-row md:justify-between md:mt-2 text-gray-500">
+    <ul class="md:inline-flex md:flex-row self-end py-5 pr-5">
         <li class="hover:text-gray-800">
             <a class="" href="/services" use:link use:active>
                 <p class="">Services</p>
@@ -34,7 +34,7 @@
             </a>
         </li>
     </ul>
-    <ul class="inline-flex flex-row ">
+    <ul class="self-end md:inline-flex md:flex-row pr-10 md:self-center md:p-0">
         <li class="hover:text-gray-800">
             <p>Sign in</p>
         </li>
