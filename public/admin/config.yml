@@ -9,11 +9,10 @@ public_folder: /uploads # The src attribute for uploaded media will begin with /
 
 collections:
   - name: "posts"
-    identifier_field: "date"
     label: "Posts"
     folder: "posts"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     sumary: "{{date}}-{{title}}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
